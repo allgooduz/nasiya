@@ -1,0 +1,120 @@
+.nav_top
+{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.nav_top .Sozlama
+{
+    padding: 11px 18px;
+    border: 2px solid var(--light_border);
+    cursor: pointer;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    user-select: none;
+    -o-border-radius: 8px;
+}
+.nav_top .Sozlama:hover
+{
+    color:var(--gray);
+}
+.delete_tavarr
+{
+    display: none;
+    position: absolute;
+    right: 0;
+    width: 200px;
+    padding: 12px 10px;
+    bottom: -55px;
+    background: var(--white);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-shadow: 0 0 4px #00000022;
+}
+.delete_tav
+{
+    display: block;
+    animation: animtebtnshoew 0.1s ease-out;
+    -webkit-animation: animtebtnshoew 0.1s ease-out;
+}
+.delete_tavarr a
+{
+    display: block;
+    color: var(--dark);
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.delete_tavarr a:hover
+{
+    background: var(--light_border);
+}
+
+.f_form, .s_form
+{
+    margin-top: 25px;
+    width: 100%;
+    max-width: 800px;
+    background: var(--white);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px solid var(--light_border);
+}
+.f_form .about_shopify
+{
+    padding: 20px;
+    border-bottom: 1px solid var(--light_border);
+}
+.f_form input
+{
+    padding: 10px 12px;
+    width: 100%;
+    border: 2px solid var(--light_border);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.inps
+{
+    padding-top: 0px;
+    padding: 0px 20px 10px 20px;
+}
+.inps input
+{
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+.btns
+{
+    border-top: 2px solid var(--light_border);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.btns button:nth-child(2)
+{
+    border: 2px solid var(--blue);
+    background: var(--blue);
+    color: var(--light);
+}
+.btns button:hover:nth-child(2)
+{
+    opacity: 0.8;
+}
